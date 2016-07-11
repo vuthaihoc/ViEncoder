@@ -1,0 +1,2 @@
+Các file này làm nhiệm vụ khai báo rõ ràng hơn các khai báo magic bên trong Laravel. Để IDE(ví dụ như Sublime) có thể hiểu được và autocomplate khi code.
+Trong trường hợp các bạn không thể chạy được hoặc không muốn chạy ide-helper thì có thể tải sẵn các file đã được gen sẵn(mới bao gồm một số hàm và Facade có sẵn trong Laravel)

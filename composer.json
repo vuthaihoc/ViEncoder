@@ -1,0 +1,18 @@
+{
+  "name": "vuthaihoc/vi_encoder",
+  "description": "Chuyển đổi qua lại giữa một số định dạng bảng mã Việt Nam",
+  "minimum-stability": "stable",
+  "keywords" : ["laravel", "encoder", "unicode", "tcvn3", "viqr", "vni-windows"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vũ Thái Học",
+      "email": "vuthaihoc.ttud@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "StupidDev\\ViEncoder\\": "src/"
+    }
+  }
+}

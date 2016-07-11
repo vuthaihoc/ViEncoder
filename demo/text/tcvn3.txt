@@ -1,0 +1,2 @@
+C¸c file nµy lµm nhiÖm vô khai b¸o râ rµng h¬n c¸c khai b¸o magic bªn trong Laravel. §Ó IDE(vÝ dô nh­ Sublime) cã thÓ hiÓu ®­îc vµ autocomplate khi code.
+Trong tr­êng hîp c¸c b¹n kh«ng thÓ ch¹y ®­îc hoÆc kh«ng muèn ch¹y ide-helper th× cã thÓ t¶i s½n c¸c file ®· ®­îc gen s½n(míi bao gåm mét sè hµm vµ Facade cã s½n trong Laravel)

@@ -1,0 +1,2 @@
+Ca'c file na`y la`m nhie^.m vu. khai ba'o ro~ ra`ng ho+n ca'c khai ba'o magic be^n trong Laravel\. DDe^? IDE(vi' du. nhu+ Sublime) co' the^? hie^?u ddu+o+.c va` autocomplate khi code\.
+Trong tru+o+`ng ho+.p ca'c ba.n kho^ng the^? cha.y ddu+o+.c hoa(.c kho^ng muo^'n cha.y ide-helper thi` co' the^? ta?i sa(~n ca'c file dda~ ddu+o+.c gen sa(~n(mo+'i bao go^`m mo^.t so^' ha`m va` Facade co' sa(~n trong Laravel)

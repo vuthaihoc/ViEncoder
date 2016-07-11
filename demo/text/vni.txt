@@ -1,0 +1,2 @@
+Caùc file naøy laøm nhieäm vuï khai baùo roõ raøng hôn caùc khai baùo magic beân trong Laravel. Ñeå IDE(ví duï nhö Sublime) coù theå hieåu ñöôïc vaø autocomplate khi code.
+Trong tröôøng hôïp caùc baïn khoâng theå chaïy ñöôïc hoaëc khoâng muoán chaïy ide-helper thì coù theå taûi saün caùc file ñaõ ñöôïc gen saün(môùi bao goàm moät soá haøm vaø Facade coù saün trong Laravel)
