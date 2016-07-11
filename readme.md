@@ -1,3 +1,9 @@
+## Cài đặt
+
+Composer
+
+    composer require vuthaihoc/vi_encoder
+
 ## Code supported 
 
     private static $codes_supported = [
@@ -27,3 +33,12 @@ bảng mã `$string` đang dùng.
     const CHARSET_VNI_WIN = 'VNI-WIN';
     const CHARSET_VIQR = 'VIQR';
     const CHARSET_UNICODE = 'UNICODE';
+    
+    
+## Credit
+
+Tham khảo:
+
+- Chuyển đổi giữa các bảng mã https://github.com/anhskohbo/u-convert
+- Tự động xác định bảng mã đang dùng của đoạn văn http://e-cadao.com/VietUni_files/vietuni.htm
+- Tham chiếu ký tự tiếng Việt trong các bảng mã http://vietunicode.sourceforge.net/charset/
