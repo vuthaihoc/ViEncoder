@@ -14,14 +14,14 @@ class Code {
 	const CHARSET_VNI_WIN = 'VNI-WIN';
 	const CHARSET_VIQR = 'VIQR';
 	const CHARSET_UNICODE = 'UNICODE';
-//	const CHARSET_VISCII = 'VISCII';
-//	const CHARSET_VPS_WIN = 'VPS-Win';
-//	const CHARSET_VIETWARE_F = 'VietWare-F';
-//	const CHARSET_VIETWARE_X = 'VietWare-X';
-//	const CHARSET_BKHCM1 = 'B.K. HCM 1';
-//	const CHARSET_BKHCM2 = 'B.K. HCM 2';
-//	const CHARSET_VNU = 'VNU';
-//	const CHARSET_COMB_UNICODE = 'Comb Unicode';
-//	const CHARSET_ESC_UNICODE = 'Esc Unicode';
-//	const CHARSET_UTF8 = 'UTF-8';
+	const CHARSET_VISCII = 'VISCII';
+	const CHARSET_VPS_WIN = 'VPS-Win';
+	const CHARSET_VIETWARE_F = 'VietWare-F';
+	const CHARSET_VIETWARE_X = 'VietWare-X';
+	const CHARSET_BKHCM1 = 'B.K. HCM 1';
+	const CHARSET_BKHCM2 = 'B.K. HCM 2';
+	const CHARSET_VNU = 'VNU';
+	const CHARSET_COMB_UNICODE = 'Comb Unicode';
+	const CHARSET_ESC_UNICODE = 'Esc Unicode';
+	const CHARSET_UTF8 = 'UTF-8';
 }
