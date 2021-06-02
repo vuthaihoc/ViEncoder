@@ -76,4 +76,35 @@ class Detector {
 			return false;
 		}
 	}
+	
+     /**
+     * detect all codes which was used in string
+     * @param $string
+     * @return array|false
+     */
+    public static function usingCodes($string)
+    {
+        $codes = [];
+        foreach (self::$codes_supported as $code) {
+            $chars = [];
+            foreach (Converter::$maps[$code] as $char) {
+                if (strpos($string, $char) !== false) {
+                    $chars[] = $char;
+                }
+            }
+            $codes[$code] = $chars;
+        }
+        foreach ($codes as $code => &$chars) {
+            foreach ($codes as $_code => $_chars) {
+                if ($code == $_code) {
+                    continue;
+                }
+                $chars = array_diff($chars, $_chars);
+            }
+            if (!$chars) {
+                unset($codes[$code]);
+            }
+        }
+        return $codes ? array_keys($codes) : false;
+    }
 }
