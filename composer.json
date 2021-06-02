@@ -1,5 +1,5 @@
 {
-  "name": "vuthaihoc/vi_encoder",
+  "name": "nguyenhiep/vi_encoder",
   "description": "Chuyển đổi qua lại giữa một số định dạng bảng mã Việt Nam",
   "minimum-stability": "stable",
   "keywords" : ["laravel", "encoder", "unicode", "tcvn3", "viqr", "vni-windows"],
