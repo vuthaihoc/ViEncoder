@@ -11,7 +11,7 @@ use StupidDev\ViEncoder\Encoder\Converter;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-$vf = "trong khu vùc c«ng ®· diÔn ra. T¸c ®éng cña c¸c cuéc c¶i c¸ch nµy kh«ng chØ lµ";
+$vf = "ÑÖÙC HIEÁU SINH YÙ HAØNH, KHAÅU HAØNH, THAÂN HAØNH";
 
 echo \StupidDev\ViEncoder\Encoder\Detector::usingCode( $vf);
 

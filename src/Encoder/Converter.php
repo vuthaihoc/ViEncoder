@@ -164,15 +164,15 @@ class Converter {
 		$sourceCharSet = self::$maps[ $sourceEncode ];
 
 		$count = count($targetCharSet) - 1;
-		for ($i = $count; $i > 0; $i--)
+		for ($i = $count; $i >= 0; $i--)
 		{
 			$char = $sourceCharSet[$i];
-			$string = str_replace($char, '::'.$i.'::', $string);
+			$string = str_replace($char, '::'.($i+1).'::', $string);
 		}
-		for ($i = $count; $i > 0; $i--)
+		for ($i = $count; $i >= 0; $i--)
 		{
 			$char = $targetCharSet[$i];
-			$string = str_replace('::'.$i.'::', $char, $string);
+			$string = str_replace('::'.($i+1).'::', $char, $string);
 		}
 
 		return $string;//strtr( $string, $parse_array );
